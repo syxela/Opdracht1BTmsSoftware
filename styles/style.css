@@ -1,0 +1,25 @@
+body {
+    font-family:Arial, Helvetica, sans-serif; 
+    
+}
+body h1{
+    margin-top: auto;
+    align-self: center;
+}
+
+#map{
+    display: flex;
+    height: 55vh; 
+    width: 60%;
+    margin: 50px auto; 
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #5491f5; 
+    border-radius: 25px;
+}
+
+
+body input #address, #lat, #lng, #searchAddr, #searchCoord{
+    visibility : hidden; 
+}
